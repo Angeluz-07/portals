@@ -1,0 +1,20 @@
+@(elements: List[(String,String)])
+
+@main("Dummy") {
+  <p>here comes the dummy</p>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Img</th>
+    </tr>
+    @for((a,b) <- elements) {
+
+      <tr>
+        <td>@a</td>
+        <td><img src="@b"></td>
+      </tr>
+    }
+  </table>
+
+ 
+}
