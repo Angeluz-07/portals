@@ -3,6 +3,6 @@ Sandbox project to learn and practice new technologies and keep clean templates 
 
 # Apps
 - neo4j_api : API REST service built with FastAPI & Neo4j.
-- fast_api(todo)
+- fastapi : TODO API Rest built with FastAPI and in-memory repository.
 - flask_api(todo)
 - pyspark_app(todo)
